@@ -1,0 +1,33 @@
+/** @format */
+
+.ui.grid.services {
+	padding: 4em 0;
+}
+
+.ui.grid.services .ui.text.container .ui.header {
+	padding: 2em 0;
+}
+
+.ui.icon-wrap {
+	padding: 2em 0;
+}
+
+.ui.icon-wrap .inverted.icon {
+	opacity: 0.4;
+}
+
+.ui.four.doubling.column.grid ui.card.column.container {
+	max-width: 400px !important;
+}
+
+.ui.cards .card {
+	margin: 2em;
+	border: 1px solid #fdcfc9 !important;
+	background-color: #fff7f689;
+	box-shadow: 4px 2px 24px #efefef !important;
+}
+
+.ui.cards .card .center.aligned.content {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}

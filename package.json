@@ -1,0 +1,14 @@
+{
+  "name": "skintry",
+  "version": "1.0.0",
+  "description": "skincare site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fomantic-ui": "^2.8.8"
+  },
+  "author": "",
+  "license": "ISC"
+}

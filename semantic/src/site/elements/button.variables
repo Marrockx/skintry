@@ -1,0 +1,10 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@primaryColor   : @darkorange;
+@secondaryColor : @grey;
+@grey           : #fafafa;
+@darkorange     : #660c00;
+@labeledLabelBorderColor: @darkorange;
+@focusColor: @darkorange;
+

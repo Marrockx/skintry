@@ -1,0 +1,22 @@
+/** @format */
+
+.ui.vertical.segment.face {
+	padding: 4em 0;
+}
+
+.ui.container.product-wrap {
+	padding: 2em 0;
+}
+.ui.vertical.segment.face .container {
+	max-width: 100%;
+}
+.text.container.product {
+	padding: 2em 0;
+	padding-top: 4em;
+	font-size: 20px;
+}
+
+.ui.grid.three.column.images {
+	margin: 6em auto !important;
+	justify-content: center;
+}

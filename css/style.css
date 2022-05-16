@@ -1,0 +1,159 @@
+/** @format */
+/** @format */
+
+@import "./services.css";
+@import "./products.css";
+@import "./form.css";
+@import "./faq.css";
+@import "./footer.css";
+
+html {
+	scroll-behavior: smooth;
+}
+
+.masthead.segment {
+	min-height: 800px;
+	padding: 1em 0em;
+}
+
+.masthead .ui.secondary.menu .logo.item img {
+	margin-right: 1em;
+	width: 180px;
+	height: 60px;
+	object-fit: cover;
+}
+
+.masthead .ui.menu .ui.button {
+	margin-left: 0.5em;
+}
+
+.white {
+	color: #ffffff !important;
+}
+
+.white:hover {
+	color: #fafafa !important;
+}
+
+#page-container {
+	background-color: #ffffff;
+	opacity: 1;
+	background-image: radial-gradient(#eceaea 2px, transparent 2px),
+		radial-gradient(#edecec 2px, #ffffff 2px);
+	background-size: 80px 80px;
+	background-position: 0 0, 40px 40px;
+}
+
+#wrapper .center.menu .item:hover,
+.center.menu .dropdown.item .dropdown.item,
+.secondary.menu .toc.item:hover {
+	color: #f9a89f !important;
+	background-color: transparent !important;
+}
+
+.ui.button.cart-icon {
+	color: #660c00;
+	border: 2px solid #903636;
+	padding: 1em !important;
+	margin: 0 !important;
+}
+
+.ui.button.cart-icon:hover {
+	color: #ffffff !important;
+	background-color: #660c00 !important;
+	margin: 0 !important;
+}
+
+.ui.button.cart-icon i {
+	font-size: 1.2em;
+	margin: 0 !important;
+}
+
+.masthead h1.ui.header {
+	margin: 0em;
+	margin-bottom: 0.2em;
+	font-size: 4.8em;
+	font-weight: normal;
+}
+
+.masthead h2 {
+	font-size: 1.6em;
+	font-weight: 300;
+	padding: 1em auto;
+}
+
+.secondary.menu .toc.item {
+	font-size: 2em;
+	text-align: center;
+	display: none;
+}
+
+.toc.item i.sidebar.icon {
+	margin-right: 0;
+}
+
+.ui.two.column.grid {
+	margin: 0;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.ui.two.column .column.text.container {
+	padding: 3.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: left;
+}
+
+.column.text.container .ui.button {
+	margin-top: 4.8rem;
+}
+
+.container .hero-img {
+	width: 100%;
+	transition: width 1s;
+}
+
+@media only screen and (max-width: 800px) {
+	.ui.fixed.menu {
+		display: none !important;
+	}
+
+	.huge.secondary.menu .center.menu,
+	.huge.secondary.menu .right.menu {
+		display: none;
+	}
+
+	.secondary.menu .toc.item {
+		display: block;
+	}
+
+	.masthead.segment {
+		min-height: 400px;
+	}
+
+	.ui.two.column .column.text.container {
+		padding: 2rem;
+		padding-bottom: 4rem;
+	}
+
+	.ui.two.column .column {
+		height: 75%;
+	}
+
+	.masthead h1.ui.header {
+		font-size: 3.2em;
+		margin-top: 1.5em;
+	}
+
+	.masthead h2 {
+		font-size: 1.5em;
+	}
+
+	.container .hero-img {
+		width: 80%;
+	}
+}

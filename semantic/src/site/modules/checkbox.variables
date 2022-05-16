@@ -1,0 +1,14 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+ @primaryColor: #660c00;
+ @checkboxBorderColor: @primaryColor;
+@checkboxActiveBackground: @primaryColor;
+@checkboxActiveBorderColor: @primaryColor;
+@checkboxActiveCheckColor: @white;
+/* Focused Checkbox */
+@checkboxActiveFocusBackground: @primaryColor;
+@checkboxActiveFocusBorderColor: @primaryColor;
+@checkboxActiveFocusCheckColor: @white;
+@checkboxTransition: none;
+

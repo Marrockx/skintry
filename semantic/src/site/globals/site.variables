@@ -1,0 +1,10 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor   : @darkorange;
+@secondaryColor : @grey;
+@grey           : #fafafa;
+@darkorange     : #660c00;
+@textColor     : @primaryColor;
+@hoverColor    : @red;
