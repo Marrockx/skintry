@@ -1,0 +1,10 @@
+/** @format */
+
+.ui.accordion {
+	padding: 1em 0;
+	margin: 2em 0;
+}
+
+.ui.accordion .ui.header {
+	padding: 1em 0;
+}

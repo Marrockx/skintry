@@ -9,15 +9,6 @@
 	color: #660c00 !important;
 }
 
-.ui.accordion {
-	padding: 1em 0;
-	margin: 2em 0;
-}
-
-.ui.accordion .ui.header {
-	padding: 1em 0;
-}
-
 .ui.footer.segment {
 	background-color: #903636;
 	margin: 5em 0em 0em;
